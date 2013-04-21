@@ -1,0 +1,8 @@
+#defmonitor on
+#termcapinfo xterm "ks=E[?1lE:kuE[A:kd=E[B:kl=E[D:kr=E[C:kh=E[5~:kH=E [F"
+hardstatus alwayslastline "%{-b kR}%-Lw%{-b kG}%50>%n %t%{-b kR}%+Lw%<"
+caption always "%{bk}%H   %{bk}%c   %{bk}%m%{bk}/%{bk}%d%{bk}/%{bk}%y      %{yk}%l"                             
+defscrollback 1024
+screen 
+password 
+			
